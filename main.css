@@ -1,0 +1,121 @@
+body{
+    background-image: url(img/woodenBackground.jpeg);
+    background-size: 100% 15%;
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-background-size: 100%, 100%;
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+}
+.button{
+    background-color: white;
+    background-size: 50%;
+    border: solid red;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+#nopoints{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.socialIcon{
+    padding: 0;
+    float: right;
+    height: 50px;
+    width: 50px;
+    
+}
+header{
+    padding: 6.45em 0 4em;
+    margin: 0 0 2.0em;
+    background: url(img/lima5.jpg) center;
+    background-size: cover;
+    background-position: top;
+}
+.topImage{
+    position: relative;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    height: 100px;
+    border: solid red;
+}
+section.sideBar h1{
+    top:50%;
+    background-color: white;
+    border: solid red;
+    position: absolute;
+    background-size: 50%;
+    font-family: 'Amatic SC';
+    font-size: 100px;
+}
+section.sideBar ul.contentWrapper{
+position: relative;
+top: 150px;
+list-style: none;
+margin:0px;
+}
+li.navlink{
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    margin: .5em 0 0em 0em;
+    padding: 1em 0.5em 1.0em 1em;
+    border-left: #a94f2b double 5px;
+}
+section#gallery div ul li{
+    background-size: 50%;
+    background-color: white;
+    border: solid red;
+    left: 850px;
+    top:70%;
+    position: absolute;
+    list-style: none;
+    font-size: 100px;
+}
+section#gallery.contentWrapper{
+    padding: 0px;
+}
+section.contentWrapper div ul img.photos{
+    float: right;
+    display: block;
+    width: 300px;
+    position: relative;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    bottom: 680px;
+    
+}
+.photos{
+    float: right;
+}
+footer{
+    margin: 0 0;
+    position: relative;
+    display: inline-block;
+    border: tomato solid;
+    background-color: #bea28e;
+    height: 150px;
+    font-size: 1.2em;
+    color: #fff;
+    padding:0.5em 0.5em 1.5em 2em;
+    
+}
+footer#footer{
+    display: inline-block;
+    list-style: none;
+}
+footer ul li {
+    bottom: 100px;
+    display: inline-block;
+    padding: 0em 5em 0.5em 0em;
+    margin: 0;
+}
